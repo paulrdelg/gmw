@@ -1,8 +1,12 @@
 
+all:
 
-test:
-	gcc -v
+test_compiler:
+	g++ --version
 
 compile:
-	gcc test.cpp
+	g++ -c code/test.cpp -o objects/test.o
+
+package:
+	g++ -o main objects/test.o
 
