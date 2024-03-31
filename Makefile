@@ -13,12 +13,15 @@ compile:
 	g++ -c code/test.cpp -o objects/test.o
 
 analysis:
-	ghdl -a --std=08 --work=work code/dut.vhd
-	ghdl -a --std=08 --work=tb code/clk_gen.vhd
-	ghdl -a --std=08 --work=tb code/tb_top.vhd
+	#ghdl -a --std=08 --work=work code/mem.vhd
+	ghdl -a --std=08 --work=tb --workdir=lib -Wbinding -Wlibrary -v code/cpu.vhd
+	ghdl -a --std=08 --work=tb --workdir=lib code/por.vhd
+	ghdl -a --std=08 --work=tb --workdir=lib code/clk_gen.vhd
+	ghdl -a --std=08 --work=tb --workdir=lib code/tb_timer.vhd
+	ghdl -a --std=08 --work=tb --workdir=lib code/tb_top.vhd
 
 elaborate:
-	ghdl -e --std=08 --work=tb tb_top
+	ghdl -e --std=08 --work=tb --workdir=lib tb_top
 
 run:
-	ghdl -r --std=08 --work=tb tb_top
+	ghdl -r --std=08 --work=tb --workdir=lib tb_top
