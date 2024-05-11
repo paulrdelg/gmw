@@ -1,0 +1,3 @@
+[submodule "board/apex/submodules/agg-kicad"]
+	path = board/apex/submodules/agg-kicad
+	url = https://github.com/adamgreig/agg-kicad.git
