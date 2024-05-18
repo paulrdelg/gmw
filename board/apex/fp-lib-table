@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "UJC_HP_3_SMT_TR")(type "KiCad")(uri "${KIPRJMOD}/UJC_HP_3_SMT_TR")(options "")(descr "")(disabled))
+  (lib (name "LEDBS75000_WRE")(type "KiCad")(uri "${KIPRJMOD}/models/150080BS75000")(options "")(descr ""))
+  (lib (name "USB4125_GF_A")(type "KiCad")(uri "${KIPRJMOD}/models/USB4125_GF_A")(options "")(descr ""))
+  (lib (name "AP7363_33D_13")(type "KiCad")(uri "${KIPRJMOD}/models/AP7363_33D_13")(options "")(descr ""))
+)

@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "150080BS75000")(type "KiCad")(uri "${KIPRJMOD}/models/150080BS75000/2024-05-16_11-58-11.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7363_33D_13")(type "KiCad")(uri "${KIPRJMOD}/models/AP7363_33D_13/2024-05-16_11-42-34.kicad_sym")(options "")(descr ""))
+  (lib (name "C0805C106K8RACAUTO")(type "KiCad")(uri "${KIPRJMOD}/models/C0805C106K8RACAUTO/2024-05-16_11-53-11.kicad_sym")(options "")(descr ""))
+  (lib (name "CL21B104KCFNNNE")(type "KiCad")(uri "${KIPRJMOD}/models/CL21B104KCFNNNE/CL21B104KCFNNNE.kicad_sym")(options "")(descr ""))
+  (lib (name "CR0805-JW-331ELF")(type "KiCad")(uri "${KIPRJMOD}/models/CR0805_JW_331ELF/CR0805-JW-331ELF.kicad_sym")(options "")(descr ""))
+  (lib (name "RK73B2ATTD3R3J")(type "KiCad")(uri "${KIPRJMOD}/models/RK73B2ATTD3R3J/RK73B2ATTD3R3J.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4125-GF-A_REVA2")(type "KiCad")(uri "${KIPRJMOD}/models/USB4125_GF_A/USB4125-GF-A_REVA2.kicad_sym")(options "")(descr ""))
+)
