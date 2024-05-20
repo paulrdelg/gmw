@@ -4094,14 +4094,6 @@
 		(uuid "1a601973-d359-444d-a8cd-d3efe8ca24ec")
 	)
 	(segment
-		(start 26 49)
-		(end 26 46)
-		(width 0.25)
-		(layer "In2.Cu")
-		(net 3)
-		(uuid "3ee37695-55ef-4aff-84f8-1e8b2fe9fbf1")
-	)
-	(segment
 		(start 28 46)
 		(end 26 46)
 		(width 0.25)
@@ -4124,6 +4116,14 @@
 		(layer "In2.Cu")
 		(net 3)
 		(uuid "bb66bc49-0444-4ba5-a307-1c68a8610b15")
+	)
+	(segment
+		(start 26 49)
+		(end 26 46)
+		(width 0.25)
+		(layer "In2.Cu")
+		(net 3)
+		(uuid "cdac195b-7d7a-4516-a68c-858544b2373e")
 	)
 	(segment
 		(start 19.675 51.61)
